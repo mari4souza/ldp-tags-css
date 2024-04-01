@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Evita problemas com largura total incluindo padding e bordas */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    /* Cor de fundo do rodapé */
+    color: #fff;
+    /* Cor do texto do rodapé */
+    text-align: center;
+    /* Centraliza o texto do rodapé */
+}
+
+header {
+    height: 10%;
+    padding: 5px;
+    background-color: #851e25;
+    color: #ffffff;
+}
+
+menu {
+    height: 5%;
+    background-color: #b36053;
+}
+
+main {
+    height: 77%;
+    background-color: #f5e4c8;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 8%;
+    background-color: #1c997f;
+    color: #6d3838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.container-conteudo {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.only-text {
+    flex-direction: column;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    width: 40%;
+    height: 163px;
+    border-radius: 20px;
+}
+
+.img1 {
+    background-image: url('/imagens/tags.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url('/imagens/exemplos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre {
+    width: 70%;
+}
